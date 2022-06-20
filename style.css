@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1080px;
+}
+
+body p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+/* Main styles */
+
+h2 {
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+main section {
+    position: relative;
+}
+
+hr {
+    margin-bottom: 27px;
+}
+
+hr:before {
+    position: absolute;
+    content: "";
+    top: 38px;
+    width: 72px;
+    height: 10px;
+    background: #7ABCAC;
+}
+
+/* header */
+
+header {
+    text-transform: uppercase;
+}
+
+header section:first-of-type {
+    width: 100%;
+    height: 61px;
+    background: #7ABCAC;
+}
+
+header section:last-of-type {
+    width: 586px;
+    height: 189px;
+    margin: auto;
+    border: solid 4px black;
+    text-align: center;
+}
+
+header section:last-of-type h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56.25px;
+    padding-top: 43px;
+    padding-bottom: 19px;
+}
+
+header section:last-of-type p {
+    width: 248px;
+    height: 28px;
+    color: white;
+    background: black;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.13px;
+    margin: auto;
+}
+
+/* main */
+
+main {
+    margin: 0 5px 0 5px;
+}
+
+/* apie mane */
+
+h2:first-of-type {
+    margin-top: 65px;
+}
+
+main .about.me p {
+    font-weight: 500;
+    margin-bottom: 92px;
+}
+
+/* Linkai */
+main .links {
+    margin-bottom: 58px;
+}
+.fa-linkedin-in {
+    color: #285AEB;
+}
+.fa-facebook {
+    color:#285AEB;
+}
+
+.fa-instagram {
+    background:radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+a:hover, a:focus, a:active {
+    color: #7ABCAC;
+}
+
+/* Education */
+
+main .education {
+    margin-bottom: 74px;
+}
+
+main .education hr:last-of-type {
+    margin: px 0 17px 0;
+}
+
+
+/* Personal, Technical skills */
+
+main .Technical-skills p, main .Personal-skills p {
+    padding: 0 10px 0 10px;
+    margin-bottom: 30px;
+    width: max-content;
+    border-radius: 10px;
+}
+
+.Personal-skills p:nth-last-of-type(3) {
+    background: #7ABCAC;
+}
+
+.Personal-skills p:nth-last-of-type(2) {
+    background: #D8DA79;
+}
+.Personal-skills p:nth-last-of-type(1) {
+    background: #C29486;
+}
+.Technical-skills p:nth-last-of-type(3) {
+    background: #7ABCAC;
+}
+.Technical-skills p:nth-last-of-type(4) {
+    background: #7ABCAC;
+}
+.Technical-skills p:nth-last-of-type(1) {
+    background: #D8DA79;
+}
+.Technical-skills p:nth-last-of-type(2) {
+    background: #D8DA79;
+}
+
+/* Work experience */
+main .Work-experience .containeris {
+    display: flex;
+}
+
+.containeris div {
+    margin-right: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    border-right: 4px solid #DCDCDC;
+}
+
+.containeris p:first-of-type {
+    text-align: center;
+}
+
+.containeris p:nth-last-of-type(2) {
+    text-align: center;
+}
+
+.containeris p {
+    text-align: left;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.containeris div p:last-of-type {
+    margin-top: 22px;
+    text-transform: none
+}
+
+.containeris li {
+    margin-top: 8px;
+    margin-left: 25px;
+    text-align: left;
+    text-transform:capitalize;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+footer div {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div h3{
+    text-align: center;
+    width: 248px;
+    height: 28px;
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+footer div a {
+    margin-top: 12px;
+    text-align: center;
+}
+
+footer div:first-of-type p {
+    padding-bottom: 30px;
+}
+
+/* Other */
+
+#apacia {
+    margin-top: 84px;
+}
+
+#apacia hr:before {
+    background: none;
+}
